@@ -2,21 +2,26 @@
 	main.jsx
 	--------
 
-	Main bootstrap file for a React application using Vite.
+	Vite entry that mounts App.
 */
 
-// react imports
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
+// imports
+import React from "react";
+import ReactDOM from "react-dom/client";
+import App from "./App.jsx";
 
-// styles
-import './index.css'
+// constants and globals
+// (none)
 
-// component imports
-import App from './App.jsx'
+const Root = () => <App />;
 
-createRoot(document.getElementById('root')).render(
-	<StrictMode>
-		<App />
-	</StrictMode>,
-)
+ReactDOM.createRoot(document.getElementById("root")).render(
+	<React.StrictMode>
+		<Root />
+	</React.StrictMode>
+);
+
+// 100% of styles here defined in one big CSS block, for all the parts of the template
+const css = `
+/* entry has no styles */
+`
