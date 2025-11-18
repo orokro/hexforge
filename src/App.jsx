@@ -23,7 +23,7 @@ const App = () => {
 			className="app"
 			css={style}
 		>
-			<RootLayout>hi hi</RootLayout>
+			<RootLayout></RootLayout>
 		</div>
 	);
 };
