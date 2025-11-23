@@ -3,7 +3,7 @@ import * as THREE from 'three'
 
 // CONSTANTS
 const RADIUS = 2
-const VISIBLE_RADIUS = 1.95
+const VISIBLE_RADIUS = 2
 const HEIGHT = 1
 const SIDES = 6
 
