@@ -1,5 +1,5 @@
 import { create } from 'zustand'
-import { HexUtils } from './HexUtils'
+import { HexUtils } from '../utils/HexUtils'
 
 export const useStore = create((set, get) => ({
 	
